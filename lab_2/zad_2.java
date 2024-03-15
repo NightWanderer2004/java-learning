@@ -1,4 +1,7 @@
 public class zad_2 {
-   int number = 123;
-   String numberAsString = Integer.toString(number);
+   public static void main(String[] args){
+      int number = 123;
+      String numberAsString = Integer.toString(number);
+      System.out.println(numberAsString);
+   }
 }
