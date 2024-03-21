@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"<Unnamed>","c":"Zarowka","l":"przyciemnijZarowke()"},{"p":"<Unnamed>","c":"Zarowka","l":"rozjasnijZarowke()"},{"p":"<Unnamed>","c":"Zarowka","l":"zapalZarowke()"},{"p":"<Unnamed>","c":"Zarowka","l":"Zarowka()","u":"%3Cinit%3E()"},{"p":"<Unnamed>","c":"Zarowka","l":"zgasZarowke()"}];updateSearchResults();
