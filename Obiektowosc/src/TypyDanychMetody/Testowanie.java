@@ -1,51 +1,41 @@
-package TypyDanychMetody;
-
 public class Testowanie {
+    public static void main(String[] args) {
+        int liczba = 42;
+        System.out.println(liczba);
+        System.out.println(Integer.toString(liczba));
+        System.out.println(Integer.valueOf(liczba));
 
-	public static void main(String[] args) {
+        double liczbaDouble = 3.14;
+        System.out.println(liczbaDouble);
+        System.out.println(Double.toString(liczbaDouble));
+        System.out.println(Double.valueOf(liczbaDouble));
 
-        Boolean b1 = true;
-        System.out.println("Wartość b1: " + b1);
+        char znak = 'A';
+        System.out.println(znak);
+        System.out.println(Character.toString(znak));
+        System.out.println(Character.valueOf(znak));
 
-        boolean b2 = b1.booleanValue();
-        System.out.println("Wartość b2: " + b2);
+        String napis = "Hello, world!";
+        System.out.println(napis);
+        System.out.println(napis.length());
+        System.out.println(napis.charAt(0));
+        System.out.println(napis.toUpperCase());
 
+        boolean prawda = true;
+        System.out.println(prawda);
+        System.out.println(Boolean.toString(prawda));
+        System.out.println(Boolean.valueOf(prawda));
 
-        char c1 = 'a';
-        System.out.println("Wartość c1: " + c1);
+        byte bajt = 100;
+        System.out.println(bajt);
+        System.out.println(Byte.toString(bajt));
+        System.out.println(Byte.valueOf(bajt));
 
-        Character c2 = Character.valueOf(c1);
-        System.out.println("Wartość c2: " + c2);
-
-        System.out.println("Czy c1 jest wielką literą? " + Character.isUpperCase(c1));
-       
-        
-        byte b3 = 123;
-        System.out.println("Wartość b3: " + b3);
-
-        Byte b4 = Byte.valueOf(b3);
-        System.out.println("Wartość b4: " + b4);
-
-        System.out.println("Maksymalna wartość typu byte: " + Byte.MAX_VALUE);
-
-
-        short s1 = 32767;
-        System.out.println("Wartość s1: " + s1);
-
-        Short s2 = Short.valueOf(s1);
-        System.out.println("Wartość s2: " + s2);
-
-        System.out.println("Minimalna wartość typu short: " + Short.MIN_VALUE);
-
-
-        int i1 = 1000000;
-        System.out.println("Wartość i1: " + i1);
-
-        Integer i2 = Integer.valueOf(i1);
-        System.out.println("Wartość i2: " + i2);
-
-        int i3 = Integer.parseInt("12345");
-        System.out.println("Wartość i3: " + i3);
-	}
-
+        short krotka = 1000;
+        System.out.println(krotka);
+        System.out.println(Short.toString(krotka));
+        System.out.println(Short.valueOf(krotka));
+    }
 }
+
+

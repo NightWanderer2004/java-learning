@@ -1,3 +1,5 @@
+package Samochod;
+
 public class Samochod {
     String marka;
     String model;
@@ -23,9 +25,8 @@ public class Samochod {
         this.model = model;
     }
 
-
     public void wyswietlInformacje() {
-        System.out.println("Marka: " + marka);
-        System.out.println("Model: " + model);
+        System.out.println("Marka: " + this.getMarka());
+        System.out.println("Model: " + this.getModel());
     }
 }
