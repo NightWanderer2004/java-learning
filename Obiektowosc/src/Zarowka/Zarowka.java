@@ -12,4 +12,21 @@ public class Zarowka {
    public void przyciemnijZarowke() {
       System.out.println("Zarowka przyciemniona");
    }
+   
+   public static void main(String[] args) {
+	   
+	   Zarowka zw = new Zarowka();
+	   
+	   zw.zapalZarowke();
+	   System.out.println();
+	   
+	   zw.rozjasnijZarowke();
+	   zw.rozjasnijZarowke();
+	   System.out.println();
+
+	   zw.przyciemnijZarowke();
+	   System.out.println();
+
+	   zw.zgasZarowke();
+   }
 }
